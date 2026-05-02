@@ -436,7 +436,7 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 10px;
   }
-    .book-item {
+      .book-item {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -450,29 +450,16 @@
     border-color: var(--green-light);
     box-shadow: 0 2px 8px rgba(74,171,135,0.13);
   }
-  .book-cover-wrap {
-    width: 52px;
-    height: 74px;
-    flex-shrink: 0;
-    border-radius: 3px;
-    overflow: hidden;
-    border: 1px solid var(--border);
-    background: var(--green-bg);
-  }
-  .book-cover-wrap img {
-    width: 52px;
-    height: 74px;
-    object-fit: cover;
-    display: block;
-  }
   .book-cover-fb {
     width: 52px;
-    height: 74px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
-    border-radius: 3px;
+    font-size: 26px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
   }
   @media (max-width: 500px) {
     .book-grid { grid-template-columns: 1fr; }
@@ -650,12 +637,9 @@
     </div>
 
     <div class="book-section-title">おすすめ参考書</div>
-            <div class="book-grid">
+                <div class="book-grid">
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4757439245.jpg" alt="改訂第2版 キクタン【中学英単語】高校入試レベル" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#3a7a5a">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#3a7a5a">📗</div>
         <div class="book-info">
           <div class="book-title">改訂第2版 キクタン【中学英単語】高校入試レベル</div>
           <div class="book-pub">アルク</div>
@@ -663,10 +647,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4010940050.jpg" alt="英検3級 でる順パス単" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c9973a">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c9973a">📘</div>
         <div class="book-info">
           <div class="book-title">英検3級 でる順パス単</div>
           <div class="book-pub">旺文社</div>
@@ -674,10 +655,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4890854495.jpg" alt="中学英語を〈もう一度〉はじめからていねいに" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#2d9b8a">📙</div>
-        </div>
+        <div class="book-cover-fb" style="background:#2d9b8a">📙</div>
         <div class="book-info">
           <div class="book-title">中学英語を〈もう一度〉はじめからていねいに</div>
           <div class="book-pub">ナガセ</div>
@@ -685,10 +663,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4053045053.jpg" alt="中学英語をもう一度ひとつひとつわかりやすく。" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#7aab8c">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#7aab8c">📗</div>
         <div class="book-info">
           <div class="book-title">中学英語をもう一度ひとつひとつわかりやすく。</div>
           <div class="book-pub">Gakken</div>
@@ -696,10 +671,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4046013079.jpg" alt="カラー改訂版 世界一わかりやすい中学英語の授業" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c07050">📕</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c07050">📕</div>
         <div class="book-info">
           <div class="book-title">カラー改訂版 世界一わかりやすい中学英語の授業</div>
           <div class="book-pub">KADOKAWA</div>
@@ -707,10 +679,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4761919493.jpg" alt="中学校３年間の英語が１冊でしっかりわかる問題集" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#5060aa">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#5060aa">📘</div>
         <div class="book-info">
           <div class="book-title">中学校３年間の英語が１冊でしっかりわかる問題集</div>
           <div class="book-pub">かんき出版</div>
@@ -764,12 +733,9 @@
     </div>
 
     <div class="book-section-title">おすすめ参考書</div>
-            <div class="book-grid">
+                <div class="book-grid">
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4010346485.jpg" alt="英単語ターゲット 1200 改訂版" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#3a7a5a">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#3a7a5a">📗</div>
         <div class="book-info">
           <div class="book-title">英単語ターゲット 1200 改訂版</div>
           <div class="book-pub">旺文社</div>
@@ -777,10 +743,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4796111417.jpg" alt="システム英単語 Basic〈5訂版〉" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c9973a">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c9973a">📘</div>
         <div class="book-info">
           <div class="book-title">システム英単語 Basic〈5訂版〉</div>
           <div class="book-pub">駿台文庫</div>
@@ -788,10 +751,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4890855890.jpg" alt="大岩のいちばんはじめの英文法【超基礎文法編】" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#2d9b8a">📙</div>
-        </div>
+        <div class="book-cover-fb" style="background:#2d9b8a">📙</div>
         <div class="book-info">
           <div class="book-title">大岩のいちばんはじめの英文法【超基礎文法編】</div>
           <div class="book-pub">ナガセ（東進ブックス）</div>
@@ -799,10 +759,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4046019263.jpg" alt="関正生の英文法ポラリス [1 標準レベル]" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#5060aa">📕</div>
-        </div>
+        <div class="book-cover-fb" style="background:#5060aa">📕</div>
         <div class="book-info">
           <div class="book-title">関正生の英文法ポラリス [1 標準レベル]</div>
           <div class="book-pub">KADOKAWA</div>
@@ -810,10 +767,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4342742845.jpg" alt="入門英文解釈の技術70" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#7aab8c">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#7aab8c">📗</div>
         <div class="book-info">
           <div class="book-title">入門英文解釈の技術70</div>
           <div class="book-pub">桐原書店</div>
@@ -821,10 +775,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4010338474.jpg" alt="入門英文問題精講" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c07050">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c07050">📘</div>
         <div class="book-info">
           <div class="book-title">入門英文問題精講</div>
           <div class="book-pub">旺文社</div>
@@ -857,12 +808,9 @@
     </div>
 
     <div class="book-section-title">おすすめ参考書</div>
-            <div class="book-grid">
+                <div class="book-grid">
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4046019271.jpg" alt="関正生の英文法ポラリス [2 標準レベル]" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#5060aa">📕</div>
-        </div>
+        <div class="book-cover-fb" style="background:#5060aa">📕</div>
         <div class="book-info">
           <div class="book-title">関正生の英文法ポラリス [2 標準レベル]</div>
           <div class="book-pub">KADOKAWA</div>
@@ -870,10 +818,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4046021543.jpg" alt="英文読解の特別講座" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#2d9b8a">📙</div>
-        </div>
+        <div class="book-cover-fb" style="background:#2d9b8a">📙</div>
         <div class="book-info">
           <div class="book-title">英文読解の特別講座</div>
           <div class="book-pub">KADOKAWA</div>
@@ -881,10 +826,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4865313680.jpg" alt="英語長文Rise 構文解釈 1. 基礎〜難関編" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#3a7a5a">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#3a7a5a">📗</div>
         <div class="book-info">
           <div class="book-title">英語長文Rise 構文解釈 1. 基礎〜難関編</div>
           <div class="book-pub">Z会</div>
@@ -892,10 +834,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4777207080.jpg" alt="パラグラフリーディングのストラテジー 1" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c9973a">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c9973a">📘</div>
         <div class="book-info">
           <div class="book-title">パラグラフリーディングのストラテジー 1</div>
           <div class="book-pub">河合出版</div>
@@ -903,10 +842,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4010346523.jpg" alt="英単語ターゲット 1400" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#7aab8c">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#7aab8c">📗</div>
         <div class="book-info">
           <div class="book-title">英単語ターゲット 1400</div>
           <div class="book-pub">旺文社</div>
@@ -914,10 +850,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4796111379.jpg" alt="システム英単語〈5訂版〉/ ターゲット1900（志望校レベルに応じて）" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c9973a">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c9973a">📘</div>
         <div class="book-info">
           <div class="book-title">システム英単語〈5訂版〉/ ターゲット1900（志望校レベルに応じて）</div>
           <div class="book-pub">駿台文庫 / 旺文社</div>
@@ -968,12 +901,9 @@
     </div>
 
     <div class="book-section-title">おすすめ参考書</div>
-            <div class="book-grid">
+                <div class="book-grid">
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4866150025.jpg" alt="ポレポレ英文読解プロセス 50" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#5060aa">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#5060aa">📘</div>
         <div class="book-info">
           <div class="book-title">ポレポレ英文読解プロセス 50</div>
           <div class="book-pub">代々木ライブラリー</div>
@@ -981,10 +911,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4761926503.jpg" alt="難関大に合格する英文解釈 Code 70" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#3a7a5a">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#3a7a5a">📗</div>
         <div class="book-info">
           <div class="book-title">難関大に合格する英文解釈 Code 70</div>
           <div class="book-pub">かんき出版</div>
@@ -992,10 +919,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4046058455.jpg" alt="関正生の英語長文ポラリス [2 応用レベル]" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c07050">📕</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c07050">📕</div>
         <div class="book-info">
           <div class="book-title">関正生の英語長文ポラリス [2 応用レベル]</div>
           <div class="book-pub">KADOKAWA</div>
@@ -1003,10 +927,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4796111379.jpg" alt="システム英単語〈5訂版〉/ ターゲット 1900" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#c9973a">📘</div>
-        </div>
+        <div class="book-cover-fb" style="background:#c9973a">📘</div>
         <div class="book-info">
           <div class="book-title">システム英単語〈5訂版〉/ ターゲット 1900</div>
           <div class="book-pub">駿台文庫 / 旺文社</div>
@@ -1014,10 +935,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4010346477.jpg" alt="英熟語ターゲット 1000" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#7aab8c">📗</div>
-        </div>
+        <div class="book-cover-fb" style="background:#7aab8c">📗</div>
         <div class="book-info">
           <div class="book-title">英熟語ターゲット 1000</div>
           <div class="book-pub">旺文社</div>
@@ -1025,10 +943,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4342764652.jpg" alt="大学入試英作文ハイパートレーニング 自由英作文編" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#2d9b8a">📙</div>
-        </div>
+        <div class="book-cover-fb" style="background:#2d9b8a">📙</div>
         <div class="book-info">
           <div class="book-title">大学入試英作文ハイパートレーニング 自由英作文編</div>
           <div class="book-pub">桐原書店</div>
@@ -1036,10 +951,7 @@
         </div>
       </div>
       <div class="book-item">
-        <div class="book-cover-wrap">
-          <img src="https://m.media-amazon.com/images/P/4342764660.jpg" alt="大学入試 英作文ハイパートレーニング 和文英訳編" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="book-cover-fb" style="display:none;background:#5060aa">📕</div>
-        </div>
+        <div class="book-cover-fb" style="background:#5060aa">📕</div>
         <div class="book-info">
           <div class="book-title">大学入試 英作文ハイパートレーニング 和文英訳編</div>
           <div class="book-pub">桐原書店</div>
